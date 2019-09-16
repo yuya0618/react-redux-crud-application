@@ -45,7 +45,7 @@ class EventsIndex extends Component{
     }
     return(
       <React.Fragment>
-        <FloatingActionButton style={style} conrainerElement={<Link to="/events/new"/>}>
+        <FloatingActionButton style={style} containerElement={<Link to="/events/new"/>}>
           <ContentAdd/>
         </FloatingActionButton>
         <Table>
